@@ -1,0 +1,40 @@
+# Python
+*.py[cod]
+__pycache__/
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Environments
+env/
+venv/
+ENV/
+.venv/
+.Python
+*.env
+.env
+
+# Streamlit specific
+.streamlit/
+
+# macOS
+.DS_Store
+
+# VSCode
+.vscode/
+
+# Logs
+*.log
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Git files
+.git/

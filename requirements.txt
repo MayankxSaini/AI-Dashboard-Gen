@@ -1,0 +1,26 @@
+# Streamlit dashboard UI
+streamlit==1.35.0
+
+# Core functionality
+pandas==2.2.2
+numpy==1.26.4
+plotly==5.22.0
+matplotlib==3.9.0
+seaborn==0.13.2
+scikit-learn==1.5.0
+
+# Backend API (FastAPI server)
+fastapi==0.111.0
+uvicorn==0.30.1
+
+# OpenAI Integration
+openai==1.33.0
+
+# .env variable support
+python-dotenv==1.0.1
+
+# File handling from frontend
+python-multipart==0.0.9
+
+# Request client to call FastAPI from Streamlit
+requests==2.31.0
