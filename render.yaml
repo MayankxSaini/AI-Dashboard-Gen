@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: ai-dashboard-gen
+    env: python
+    plan: free
+    region: oregon
+    buildCommand: pip install -r requirements.txt
+    startCommand: ./start.sh
